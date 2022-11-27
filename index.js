@@ -1,5 +1,12 @@
 const express =require('express');
+const { default: inquirer } = require('inquirer');
+const inquirer = require(inquirer);
+const jest = require(jest);
 const port = process.env.PORT || 5501;
+const nodejs = {
+    pkgName: 'Node.js',
+    type: 'JavaScript runtime environment',
+};
 
 const app = express();
 
